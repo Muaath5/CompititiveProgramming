@@ -1,5 +1,5 @@
-# LazySegmantTree
-C++ pre-definded structure to calculate lazy segmant trees
+# What are these?
+These are C++ pre-definded structures
 
 ## How to use?
 ### Declaration
