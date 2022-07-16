@@ -8,6 +8,12 @@ The syntax
 alg::segmant_tree<$DataType$, $MergeFunction$> $Name$;
 ```
 
+### Available merge functions
+- **`merge_sum`**: Summation
+- **`merge_xor`**: Bitwise XOR
+- **`merge_max`**: Maximum element
+- **`merge_min`**: Minimum element
+
 ### Variables
 - **`INVALID`**: the value that is out of range
 - **`n`**: The size of the array
