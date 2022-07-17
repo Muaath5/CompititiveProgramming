@@ -5,7 +5,7 @@ These are C++ pre-definded structures
 ### Declaration
 The syntax
 ```c++
-alg::segmant_tree<$DataType$, $MergeFunction$> $Name$;
+alg::segmant_tree<$DataType$, $MergeFunction$, $LazyUpdateMerge$> $Name$;
 ```
 
 ### Available merge functions
@@ -20,10 +20,10 @@ alg::segmant_tree<$DataType$, $MergeFunction$> $Name$;
 - **`values`**: The array
 
 ### Functions
-- **`build`**: To build the segmant tree
-- **`get`**: To get a range
-- **`update`**: To update a single element
-- **`lazy_update`** (Coming soon): To update a range
+- **`build()`**: To build the segmant tree
+- **`get(l, r)`**: To get a range
+- **`update(idx, upd)`**: To update a single element
+- **`lazy_update(l, r, upd)`**: To update a range
 
 ## Example
 ```c++
