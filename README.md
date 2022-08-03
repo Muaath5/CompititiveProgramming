@@ -1,6 +1,7 @@
 # What are these?
 These are C++ pre-definded structures
 
+# Lazy Segmant Tree
 ## How to use?
 ### Declaration
 The syntax
@@ -39,3 +40,18 @@ while (q--)
 	sg.get(l, r);
 }
 ```
+
+# Disjoint union set (DSU)
+## How to use?
+### Declaration
+The syntax
+```c++
+alg::dsu $Name$;
+```
+
+## Avaliable methods
+- `initialize()`: Initialize arrays to default values based on `dsu.n`
+- `link(x, y)`: Union two `x` and `y` nodes, returns false if they were connected before, otherwise returns true
+- `root(x)`: Get the root node for the component of node `x`
+- `get_components()`: Returns components count
+- `same_component(x, y)`: Checks if nodes `x` and `y` are on the same component
