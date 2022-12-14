@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-#define N 200001
+const int maxDSU = 2e5+1;
 
 namespace alg {
 
@@ -8,8 +8,8 @@ class DSU {
 
 private:
     int cmps = n;
-    int* cnt = new int[N];
-    int* parent = new int[N];
+    int* cnt = new int[maxDSU];
+    int* parent = new int[maxDSU];
 
 public:
     DSU() {
